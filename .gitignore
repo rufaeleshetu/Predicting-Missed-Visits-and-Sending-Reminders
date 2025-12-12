@@ -1,14 +1,29 @@
-﻿# DHS microdata and derived datasets (keep local, never commit)
+﻿# --- Data (never commit) ---
 data/
+data_raw/
+data_processed/
+data/processed/
+data/interim/
+data/external/
+data/raw/
 
-# Model artifacts (keep local, never commit)
+# --- Model artifacts (retrain locally) ---
 models/
 artifacts/
+*.joblib
+*.pkl
 
-# Secrets
+# --- Secrets ---
 .env
+.env.*
+*.pem
+*.key
 
-# Python noise
+# --- Python/Jupyter noise ---
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
-*.pyc
+
+# If VS Code / notebooks created local sample folders:
+notebooks/data_sample/
+src/__pycache__/
