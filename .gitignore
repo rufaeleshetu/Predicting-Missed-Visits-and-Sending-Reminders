@@ -1,6 +1,14 @@
-﻿data/
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.vscode/
+﻿# DHS microdata and derived datasets (keep local, never commit)
+data/
+
+# Model artifacts (keep local, never commit)
 models/
+artifacts/
+
+# Secrets
+.env
+
+# Python noise
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
