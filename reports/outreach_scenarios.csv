@@ -1,0 +1,4 @@
+bands_contacted,children_contacted,pct_children,missed_captured,recall_of_missed
+high,2171,0.37736832956718236,2168,0.9631274988893825
+high+medium,2259,0.39266469667999304,2245,0.9973345179920036
+high+medium+low,5753,1.0,2251,1.0
