@@ -7,6 +7,12 @@ data/interim/
 data/external/
 data/raw/
 
+# --- Synthetic demo data (never commit the generated CSV) ---
+data_sample/*
+!data_sample/README.md
+!data_sample/.gitkeep
+
+
 # --- Model artifacts (retrain locally) ---
 models/
 artifacts/
