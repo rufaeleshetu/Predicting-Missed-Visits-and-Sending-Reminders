@@ -7,11 +7,10 @@ data/interim/
 data/external/
 data/raw/
 
-# --- Synthetic demo data (keep CSV local, allow docs) ---
+# --- Demo data folder: allow docs, block CSVs ---
 data_sample/*.csv
-data_sample/*.parquet
-data_sample/*.json
 !data_sample/README.md
+!data_sample/.gitkeep
 
 # --- Model artifacts (retrain locally) ---
 models/
@@ -29,7 +28,5 @@ artifacts/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
-
-# If VS Code / notebooks created local sample folders:
-notebooks/data_sample/
 src/__pycache__/
+notebooks/data_sample/
